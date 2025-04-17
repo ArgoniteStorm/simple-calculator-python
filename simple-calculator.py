@@ -50,7 +50,7 @@ while True:
         result = div(n1, n2)
 
         print(f"Result: {result}")
-    print('-' * 30)
+        print('-' * 30)
 
     choice = input("{:^30}".format("Do another operation? [Y/N]: ")).strip().upper()
     if choice != "Y":
